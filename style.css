@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navBar{
+    background: #FFD900;
+    height: 100%;
+    width: 100%;
+}
+
+#navBar img {
+    width: 10rem;
+    height: 100%;
+    padding: 1rem 3.5rem;
+}
+
+#text{
+    background: #514988;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 35rem; 
+}
+
+
+#text h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 85px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F3C61F;
+}
+
+#text h2 {
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+#text p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+section div {
+    display: flex;
+
+}
+
+#video {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.timer {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 85px;
+    align-items: center;
+    text-align: center;
+    color: #514988;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #E33881;
+    padding-left: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+.timer h1 {
+    padding: 0 2rem;
+}
+
+.video video {
+    width: 100%;
+    margin-left: 1rem;
+}
+
+#ingresso {
+    display: flex;
+    justify-content: left;
+
+}
+
+#ingresso img {
+    transition: .5s ease;
+}
+
+#ingresso img:hover{
+    width: 110%;
+    filter: drop-shadow(0 0 0.75rem rgb(81, 73, 136));
+}
+
+#sab {
+    filter: grayscale(100%)
+}
+
+#footer {
+    height: 20rem;
+    transition: .5s ease;
+}
+
+#footer h3 {
+    color: #F3C61F;
+    padding: 1rem;
+    margin-left: 3rem;
+}
+
+button {
+    background: rgb(81, 73, 136);
+    border-radius: 1.6rem;
+    border: none;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 51px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 2.5rem 4rem;
+    transition: .5s ease;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+button:hover {
+    color: #F3C61F;
+    font-size: 2.1rem;
+}
+
+
+@media (max-width: 750px) {
+
+    header {
+        height: 100%;
+    }
+
+    #navbar {
+        width: 100px;
+    }
+
+    #text h1 {
+        font-size: 2rem;
+    }
+
+    #text h2 {
+        font-size: 1rem;
+    }
+
+    #text p {
+        font-size: 1rem;
+    }
+
+    section div {
+        display: flex;
+        flex-direction: column;
+        width: 91%;
+        height: 100%;
+    }
+
+    .timer {
+        text-align: center;
+    }
+
+    .timer h1 {
+        font-size: 1.5rem;
+        padding: 0 10px;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .text h2 {
+        font-size: 1rem;
+    }
+
+    #text{
+        height: 100%;
+        width: 100%;
+    
+    }
+
+
+    #ingresso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    button:hover {
+        font-size: 1.2rem;
+    }
+}
+
+
