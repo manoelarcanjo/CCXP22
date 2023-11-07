@@ -1,4 +1,4 @@
-![image](https://github.com/manoelarcanjo/CCXP22/assets/116446206/1a46bc20-198a-4e53-a94b-868c15882309)# CCXP 22 - Countdown Website
+# CCXP 22 - Countdown Website
 
 Este é um projeto de site simples que realiza uma contagem regressiva para o evento CCXP 22 (Comic Con Experience 2022). O site foi criado usando HTML, CSS e JavaScript.
 
